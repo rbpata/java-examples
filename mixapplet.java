@@ -8,7 +8,7 @@ public class mixapplet extends Applet{
 		Dimension d = getSize();
 		int x = d.width/2;
 		int y = d.width/2;
-		String str;
+		String str; 
 		int r;
 		str = getParameter("radius");
 		r = Integer.parseInt(str);
